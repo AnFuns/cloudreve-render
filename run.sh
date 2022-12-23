@@ -29,15 +29,9 @@ Password = ${REDIS_PASSWORD}
 DB = ${REDIS_DB}
 [Slave]
 Secret = Or6IZ5DoP0nEzw07ZrT4v4AK3eX8oAq0EBT6fCKZAH0Xv0bBSa0Bjwri321SWeBQ
-
-; 以下为可选的设置，对应主机节点的相关参数，可以通过配置文件应用到从机节点，请根据
-; 实际情况调整。更改下面设置需要重启从机节点后生效。
 [OptionOverwrite]
-; 任务队列最多并行执行的任务数
 max_worker_num = 50
-; 任务队列中转任务传输时，最大并行协程数
 max_parallel_transfer = 10
-; 中转分片上传失败后重试的最大次数
 chunk_retries = 10
 EOF
 
