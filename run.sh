@@ -4,7 +4,7 @@
 cat <<-EOF > /root/cloudreve/conf.ini
 [System]
 ; 运行模式
-Mode = master
+Mode = slave
 ; 监听端口
 Listen = :${PORT}
 ; 是否开启 Debug
