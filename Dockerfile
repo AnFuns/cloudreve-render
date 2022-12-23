@@ -27,4 +27,4 @@ RUN mkdir -p /root/Download
 
 CMD /root/cloudreve/run.sh
 
-EXPOSE 8080
+EXPOSE 5212
