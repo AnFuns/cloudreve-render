@@ -8,7 +8,7 @@ services:
     healthCheckPath: /
     envVars:
     - key: PORT
-      value: 5212
+      value: 10000
     - key: DB_PORT
       # value:
       sync: false
