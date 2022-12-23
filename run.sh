@@ -4,7 +4,7 @@
 cat <<-EOF > /root/cloudreve/conf.ini
 [System]
 ; 运行模式
-Mode = master
+Mode = slave
 ; 监听端口
 Listen = :${PORT}
 ; 是否开启 Debug
@@ -27,6 +27,8 @@ TablePrefix = ${DB_TABLEPREFIX}
 Server = ${REDIS_SERVER}
 Password = ${REDIS_PASSWORD}
 DB = ${REDIS_DB}
+[Slave]
+Secret = Or6IZ5DoP0nEzw07ZrT4v4AK3eX8oAq0EBT6fCKZAH0Xv0bBSa0Bjwri321SWeBQ
 EOF
 
 ## 运行
