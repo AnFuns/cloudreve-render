@@ -4,7 +4,7 @@
 cat <<-EOF > /root/cloudreve/conf.ini
 [System]
 Mode = slave
-Listen = :${PORT}
+Listen = :5212
 [Slave]
 Secret = Or6IZ5DoP0nEzw07ZrT4v4AK3eX8oAq0EBT6fCKZAH0Xv0bBSa0Bjwri321SWeBQ
 [OptionOverwrite]
